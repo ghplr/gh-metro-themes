@@ -42,7 +42,7 @@ div.status-bar-mock {
 #app div.slide-page-home.wallpaper-behind {
     background-size: cover !important;
 }
-#app div.slide-page-home.wallpaper-behind div.groove-home-tile {
+#app div.slide-page-home.wallpaper-behind div.disco-home-tile {
     background: transparent !important;
     --metro-transparent-2: var(--accent-color);
 }
@@ -75,7 +75,7 @@ div.status-bar-mock {
     border-radius: 0px;
     border-width: 3px; 
     border-style: solid;
-    border-image: url(https://ghplr.github.io/) 1 stretch;
+    border-image: url(https://ghplr.github.io/gh-metro-themes/src/95/border.png) 1 stretch;
     background: #C0C0C0 !important;
     position: absolute;
     width: max-content;
@@ -104,7 +104,7 @@ div.app-page-icon-banner {
 #app .inner-page .app-list {
   border-width: 3px;
   border-style: solid;
-  border-image: url(https://raw.githubusercontent.com/ghplr/gh-groove-themes/refs/heads/main/border.png) 1 stretch;
+  border-image: url(https://ghplr.github.io/gh-metro-themes/src/95/border.png) 1 stretch;
   background: #C0C0C0 !important;
   box-shadow: 3px 3px black;
 }
