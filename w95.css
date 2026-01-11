@@ -1,11 +1,11 @@
 /* title: Windows 95 */
 /* author: [gh.plr](https://github.com/ghplr) */
-/* icon: https://ghplr.github.io/gh-groove-themes/95.svg */
+/* icon: https://ghplr.github.io/gh-metro-themes/src/95/95.svg */
 /* description: Windows 95 Theme */
 
 @font-face {
   font-family: W95;
-  src: url(https://ghplr.github.io/gh-groove-themes/w95fa.woff);
+  src: url(https://ghplr.github.io/gh-metro-themes/src/95/w95fa.woff);
 }
 
 #app {
@@ -20,7 +20,7 @@ div.status-bar-mock {
   background: #C0C0C0;
  border-width: 3px;
   border-style: solid;
-  border-image: url(https://raw.githubusercontent.com/ghplr/gh-groove-themes/refs/heads/main/border.png) 1 stretch;
+  border-image: url(https://ghplr.github.io/gh-metro-themes/src/95/border.png) 1 stretch;
   background: #C0C0C0 !important;
   box-shadow: 3px 3px black;
 }
@@ -28,7 +28,7 @@ div.status-bar-mock {
 #app div.disco-home-inner-tile {
   border-width: 4px;
   border-style: solid;
-  border-image: url(https://raw.githubusercontent.com/ghplr/gh-groove-themes/refs/heads/main/border.png) 1 stretch;
+  border-image: url(https://ghplr.github.io/gh-metro-themes/src/95/border.png) 1 stretch;
   background: #C0C0C0 !important;
   box-shadow: 4px 4px black;
 }
@@ -75,7 +75,7 @@ div.status-bar-mock {
     border-radius: 0px;
     border-width: 3px; 
     border-style: solid;
-    border-image: url(https://raw.githubusercontent.com/ghplr/gh-groove-themes/refs/heads/main/border.png) 1 stretch;
+    border-image: url(https://ghplr.github.io/) 1 stretch;
     background: #C0C0C0 !important;
     position: absolute;
     width: max-content;
@@ -137,7 +137,7 @@ div.app-page-icon-banner {
     border-radius: 0px;
     border-width: 3px; 
     border-style: solid;
-    border-image: url(https://raw.githubusercontent.com/ghplr/gh-groove-themes/refs/heads/main/border.png) 1 stretch;
+    border-image: url(https://ghplr.github.io/gh-metro-themes/src/95/border.png) 1 stretch;
     background: #C0C0C0 !important;
     position: absolute;
     width: max-content;
