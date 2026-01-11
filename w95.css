@@ -12,16 +12,20 @@
   background: #008080;
 }
 
-#app div.groove-app-tile-icon {
+div.status-bar-mock {
+    display: none;
+}
+
+#app div.disco-app-tile-icon {
   background: #C0C0C0;
- border-width: 4px;
+ border-width: 3px;
   border-style: solid;
   border-image: url(https://raw.githubusercontent.com/ghplr/gh-groove-themes/refs/heads/main/border.png) 1 stretch;
   background: #C0C0C0 !important;
-  box-shadow: 2px 2px black;
+  box-shadow: 3px 3px black;
 }
 
-#app div.groove-home-inner-tile {
+#app div.disco-home-inner-tile {
   border-width: 4px;
   border-style: solid;
   border-image: url(https://raw.githubusercontent.com/ghplr/gh-groove-themes/refs/heads/main/border.png) 1 stretch;
@@ -46,8 +50,14 @@
     background-size: cover !important;
 }
 
-#app p.groove-home-tile-title {
+#app p.disco-home-tile-title {
   color: black !important;
+  text-shadow:
+    -1px -1px 0 #C0C0C0, /* Top-left shadow */
+     1px -1px 0 #C0C0C0, /* Top-right shadow */
+    -1px  1px 0 #C0C0C0, /* Bottom-left shadow */
+     1px  1px 0 #C0C0C0; /* Bottom-right shadow */
+     
   font-family: W95;
   font-weight: normal;
 }
@@ -58,12 +68,12 @@
 
 #app #app-page-icon {
     font-family: W95;
-    box-shadow: 4px 4px black;
+    box-shadow: 3px 3px black;
     font-size: 25px; 
     color: black;
     padding: 8px 10px;
     border-radius: 0px;
-    border-width: 4px; 
+    border-width: 3px; 
     border-style: solid;
     border-image: url(https://raw.githubusercontent.com/ghplr/gh-groove-themes/refs/heads/main/border.png) 1 stretch;
     background: #C0C0C0 !important;
@@ -75,31 +85,40 @@
   display: none;
 }
 
-#app .groove-element.groove-letter-tile {
+#app .disco-element.disco-letter-tile {
+display: none;
+}
+
+.disco-home-tile {
+   background: none !important;
+}
+
+#sticky-letter {
   display: none;
 }
 
+div.app-page-icon-banner {
+  background: none !important   ;
+}
+
 #app .inner-page .app-list {
-  border-width: 4px;
+  border-width: 3px;
   border-style: solid;
   border-image: url(https://raw.githubusercontent.com/ghplr/gh-groove-themes/refs/heads/main/border.png) 1 stretch;
   background: #C0C0C0 !important;
-  box-shadow: 4px 4px black;
+  box-shadow: 3px 3px black;
 }
 
-/* #app .inner-page > .app-list.app-list-container {
-  border-width: 4px;
-  border-style: solid;
-  border-image: url(https://raw.githubusercontent.com/ghplr/gh-groove-themes/refs/heads/main/border.png) 1 stretch;
-  background: #C0C0C0 !important;
-  margin: 8px; 
-} */
+ #app .app-list-container {
+  padding-left: 10px !important;
+}
 
-#app .groove-element.groove-app-tile {
+#app .disco-element.disco-app-tile {
   color: black;
+  float: left !important;
 }
 
-#app .groove-element.groove-app-tile > p {
+#app .disco-element.disco-app-tile > p {
   color: black !important;
   font-family: W95 !important;
   font-weight: normal !important;
@@ -111,12 +130,12 @@
 
 #app #search-icon {
     font-family: W95;
-    box-shadow: 4px 4px black;
+    box-shadow: 3px 3px black;
     font-size: 25px; 
     color: black;
-    padding: 8px 10px;
+    padding: 8px 8px;
     border-radius: 0px;
-    border-width: 4px; 
+    border-width: 3px; 
     border-style: solid;
     border-image: url(https://raw.githubusercontent.com/ghplr/gh-groove-themes/refs/heads/main/border.png) 1 stretch;
     background: #C0C0C0 !important;
